@@ -1,0 +1,206 @@
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.capstone.stressmanager.homeScreen"
+        tools:showIn="@layout/activity_scrolling"
+        >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="LET ME MAKE YOU HAPPY"
+        android:fontFamily="@font/alegreya_sc"
+        android:textColor="@color/material_green_50"
+        android:textSize="16dp"/>
+
+
+    <HorizontalScrollView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/randomsayings"
+                android:onClick="dorandom"
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/chatt"
+                android:onClick="cover_click"
+                android:layout_marginLeft="40dp"
+
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/howtouse"
+                android:layout_marginLeft="40dp"
+                android:onClick="moosic_click"
+
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/focuspower"
+                android:layout_marginLeft="40dp"
+                android:onClick="focus_click"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="KNOW YOUR DEPRESSION"
+        android:fontFamily="@font/alegreya_sc"
+        android:textSize="16dp"
+        android:textColor="@color/material_green_50"/>
+
+
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/location"
+                android:onClick="location_click"
+
+
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/successful"
+                android:onClick="book_click"
+                android:layout_marginLeft="40dp"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="RELAX YOURSELF"
+        android:fontFamily="@font/alegreya_sc"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/material_green_50"/>
+
+
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@drawable/musicc"
+                android:onClick="music_click"
+
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/musiclisten"
+                android:onClick="musicc_click"
+
+                />
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/meditasion"
+                android:onClick="mantra_click"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </HorizontalScrollView>
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+
+
+

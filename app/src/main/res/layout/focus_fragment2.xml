@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:textSize="25sp"
+
+            android:fontFamily="@font/alegreya_sc"
+
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            android:textStyle="bold"
+
+
+            android:text="NUMBER RECALL" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toEndOf="@+id/textView6"
+            android:fontFamily="@font/alegreya_sc"
+            android:text="TIMER"
+            android:textAlignment="textEnd"
+
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/arbutus_slab"
+
+        android:text="Study the 15 numbers on this grid for 15 seconds, then try to remember them — in order.You have 15 seconds to attempt. "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <ImageView
+        android:id="@+id/number_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/number_image"
+
+        />
+
+</LinearLayout>
